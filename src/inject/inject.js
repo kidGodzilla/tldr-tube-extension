@@ -45,6 +45,7 @@ chrome.extension.sendMessage({}, function(response) {
       // console.log('TLDRTube Ready', location.href, getYoutubeId(location.href));
 
       setTimeout(() => {
+        if (!getYoutubeId(location.href)) return;
         const parentElement = document.querySelector('#end');
         const linkElement = document.createElement('a');
         linkElement.href = 'https://tldr.tube/' + getYoutubeId(location.href);
