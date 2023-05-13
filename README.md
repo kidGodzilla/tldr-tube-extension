@@ -1,6 +1,6 @@
 # TLDR Tube extension
 
-A simple extension to add a link from YouTube.com to TLDR Tube for summarization
+A simple extension to add a link from YouTube.com videos to TLDR Tube for summarization (top right corner)
 
 ## Instructions
 
